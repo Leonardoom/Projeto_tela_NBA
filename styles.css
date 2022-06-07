@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rodape {
+    background-color: blue;
+}
+
+.titulo-principal {
+    color: aliceblue;
+
+}
