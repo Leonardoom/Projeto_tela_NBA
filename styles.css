@@ -1,15 +1,25 @@
 * {
-    padding: 0px;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
 }
 
-#rodape {
-    background-color: blue;
+.rodape-container {
+    background-color: black;
+    color: aliceblue;  
+    width: 100%;
 }
 
-.titulo-principal {
-    color: aliceblue;
+.primeiro-titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: white
 
+}
+
+#lista-menu {
+ text-align: center;
+ display: inline-block;
+ color: white;
 }
