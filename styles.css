@@ -1,25 +1,123 @@
 * {
-   padding: 0;
-   margin: 0;
-   box-sizing: border-box;
-
+    padding: 0%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.rodape-container {
+.cabecalho-top {
+    color:  #fff;
     background-color: black;
-    color: aliceblue;  
+    border-bottom: 3px solid red;
+    padding: 5px;
     width: 100%;
 }
 
-.primeiro-titulo {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: white
-
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-right: 20px;
+    background-color: black;
+    color:blue;
+    width: 100%;
+    border-radius: 12px;
+}
+    
+h1:hover {
+    color: red;
+    transition: background .5s;
+    background-color:aqua;
 }
 
-#lista-menu {
- text-align: center;
- display: inline-block;
- color: white;
+.lista li {
+    display: inline-block;
+    text-align: right;
+    box-sizing: border-box;
+    margin: 10px;
+    list-style: none;
+}
+
+.lista li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  transition: background .6s;
+}
+
+.lista li a:hover {
+    background-color: blue;
+    border-radius: 15px;    
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    font-weight: bolder;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 350px;
+}
+.texto-um {
+    text-align: center;
+    padding-top: 15px;
+    width: 90%;
+    color: #fff;
+    font-size: 22px;
+}
+
+body {
+    background-image: url("./nba-fundodetela.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-dois {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 45px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 400px;
+}
+
+h3:hover {
+    color: blue;
+    background-color: black;
+}
+
+#imagem1  {
+    width: 30%;
+    display: inline-block;
+    position: center;
+    margin-left: 30%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding:40px;
+    color: #fff;
+    border-top: 5px solid red;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.rodape-final {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.lista-final a {
+background-color: #fff
 }
